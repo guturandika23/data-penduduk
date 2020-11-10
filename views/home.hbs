@@ -26,6 +26,7 @@
                 <th "col-sm">TTL</th>
                 <th "col-sm">GOLONGAN DARAH</th>
                 <th "col-sm">TELEPON</th>
+                <th "col-sm">AKSI</th>
             </tr>
         </thead>
         <tbody class="table table-active" style="text-align: center;">
@@ -37,6 +38,7 @@
                 <td>{{ TTL }}</td>
                 <td>{{ GOLONGAN_DARAH }}</td>
                 <td>{{ telepon }}</td>
+                <td><a href="/hapus-NAMA/{{ NAMA }}"><button>hapus</button></a></td>
             </tr>
             {{/each}}
         </tbody>
